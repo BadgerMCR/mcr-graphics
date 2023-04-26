@@ -1,0 +1,39 @@
+
+.lower_third_football {
+  background-image: url(/mediafiles/mcr_Remembers_L3.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1500px;
+  background-size: 950px;
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  }
+  
+  .l3fName {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 130px;
+    left: 405px;
+  }
+  
+  .l3ftitle {
+    font-size: 0.9em;
+    display: block;
+    position: absolute;
+    top: 210px;
+    left: 405px;
+  }
+  
+
+  
+  /* Fade Animation */
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+  
