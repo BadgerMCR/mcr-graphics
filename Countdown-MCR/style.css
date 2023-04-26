@@ -1,0 +1,116 @@
+.countdown_mcr {
+    font-variant-numeric: tabular-nums;
+    position: absolute;
+    width: 1920px;
+    height:1080px;
+  }
+  
+  .counter_1 {
+    font-size: 1.2em;
+    display: inline-block;
+    margin-left: 5px;
+    position: absolute;
+    top:122px;
+    left: 280px;
+    padding: 4px;
+    z-index: 1;
+  }
+
+  .scbgd {
+    background-repeat: no-repeat;
+    /* Set default background image */
+    background: url(/mediafiles/mcr-scorecard.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    position: absolute;
+    top: 95px;
+    left: 50px;
+    width: 1920px;
+    height:1080px;
+    z-index: 0;
+   
+
+}
+  .color1 {
+    width: 173px;
+    height: 5px;
+    position: absolute;
+    top: 152px;
+    left: 51px;
+    z-index: 1;
+  }
+  
+  .color2 {
+    width: 173px;
+    height: 5px;
+    position: absolute;
+    top: 152px;
+    left: 452px;
+    z-index: 1;
+  }
+  .streamlogo img {
+    max-width: 100px;
+    max-height: 110px;
+    size: 100%;
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    top: 40px;
+    left: 290px;
+  }
+  
+  .teamAname{
+    display: inline; 
+    text-align: center; 
+    font-family: arial; 
+    color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px; 
+    font-size: 0.5em; 
+    position: absolute; 
+    top:96px; 
+    left: 130px; 
+    z-index: 1;
+}
+.teamBname{
+  display: inline; 
+  text-align: center; 
+  font-family: arial; 
+  color: black; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px; 
+  font-size: 0.5em; 
+  position: absolute; 
+  top:96px; 
+  left: 530px; 
+  z-index: 1;
+}
+
+.scoreA {
+  display: inline-block; 
+  text-align: center; 
+  width:50px; 
+  font-size: 0.9em; 
+  color:black; 
+  position:absolute; 
+  top:99px; 
+
+  left:215px; 
+  margin-left: 10px;
+}
+
+.scoreB{
+  display: inline-block; 
+  text-align: center; 
+  width:50px; 
+  font-size: 0.9em; 
+  color:black; 
+  position:absolute; 
+  top:99px; 
+
+  left:390px; 
+  margin-left: 10px;
+}
