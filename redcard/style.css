@@ -1,0 +1,48 @@
+
+.redcard-football-background {
+    background-image: url(/mediafiles/mcr_Remembers_L3.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1500px;
+    background-size: 950px;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+  }
+  
+  .playerName {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 283px;
+    left: 405px;
+  }
+  
+  .redcard-football h2#teamName5 {
+    font-size: 0.9em;
+    display: block;
+    position: absolute;
+    top: 360px;
+    left: 410px;
+  }
+
+
+  .cardColor{
+    height: 60px;
+    width: 40px;
+    position: absolute;
+    top: 280px;
+    left: 880px;
+    transform: skew(-15deg);
+  }
+
+  
+  /* Fade Animation */
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+  
